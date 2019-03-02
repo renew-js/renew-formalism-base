@@ -1,3 +1,3 @@
-# renew-formalism-pt
+# renew-formalism-base
 
-A pt-net formalism metamodel.
+A metamodel for base elements.
