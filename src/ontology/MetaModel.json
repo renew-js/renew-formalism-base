@@ -1,0 +1,39 @@
+{
+  "type": "base",
+  "classifiers": [
+    {
+      "type": "ellipse",
+      "labels": [ ]
+    },
+    {
+      "type": "rectangle",
+      "labels": [ ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "arc",
+      "bind": {
+        "ellipse": [
+          "*"
+        ],
+        "rectangle": [
+          "*"
+        ]
+      },
+      "arrow-end": "arrow-head",
+      "labels": [ ]
+    }
+  ],
+  "arrow-heads": [
+    {
+      "type": "arrow-head"
+    }
+  ],
+  "texts": [
+    {
+      "type": "text"
+    }
+  ]
+}
+
