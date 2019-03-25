@@ -9,8 +9,9 @@ import toolConfiguration from '../ontology/ToolConfiguration.json';
  *
  */
 export default class PluginPT extends Formalism.Plugin {
-    constructor (props) {
-        super(props);
+
+    constructor () {
+        super();
         this.type = metamodel.type;
     }
 
@@ -34,4 +35,5 @@ export default class PluginPT extends Formalism.Plugin {
     getToolConfiguration () {
         return Formalism.Ontology.ToolConfiguration.fromJson(toolConfiguration);
     }
+
 }
