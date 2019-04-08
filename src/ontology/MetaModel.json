@@ -2,12 +2,10 @@
   "type": "base",
   "classifiers": [
     {
-      "type": "ellipse",
-      "labels": [ ]
+      "type": "ellipse"
     },
     {
-      "type": "rectangle",
-      "labels": [ ]
+      "type": "rectangle"
     }
   ],
   "relations": [
@@ -21,8 +19,7 @@
           "*"
         ]
       },
-      "arrow-end": "arrow-head",
-      "labels": [ ]
+      "arrow-end": "arrow-head"
     }
   ],
   "arrow-heads": [
@@ -32,7 +29,10 @@
   ],
   "texts": [
     {
-      "type": "text"
+      "type": "text",
+      "targets": [
+        "*"
+      ]
     }
   ]
 }
