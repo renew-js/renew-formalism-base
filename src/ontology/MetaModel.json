@@ -8,9 +8,49 @@
     {
       "type": "rectangle",
       "labels": [ ]
+    },
+    {
+      "type": "triangle",
+      "labels": [ ]
+    },
+    {
+      "type": "diamond",
+      "labels": [ ]
+    },
+    {
+      "type": "star",
+      "labels": [ ]
+    },
+    {
+      "type": "polygon",
+      "labels": [ ]
     }
   ],
   "relations": [
+    {
+      "type": "line",
+      "bind": {
+        "ellipse": [
+          "*"
+        ],
+        "rectangle": [
+          "*"
+        ],
+        "triangle": [
+          "*"
+        ],
+        "diamond": [
+          "*"
+        ],
+        "star": [
+          "*"
+        ],
+        "hexagon": [
+          "*"
+        ]
+      },
+      "labels": [ ]
+    },
     {
       "type": "arc",
       "bind": {
@@ -18,6 +58,18 @@
           "*"
         ],
         "rectangle": [
+          "*"
+        ],
+        "triangle": [
+          "*"
+        ],
+        "diamond": [
+          "*"
+        ],
+        "star": [
+          "*"
+        ],
+        "hexagon": [
           "*"
         ]
       },

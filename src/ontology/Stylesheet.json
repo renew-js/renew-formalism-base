@@ -5,58 +5,126 @@
       "representation": {
         "name": "ellipse",
         "type": "element",
-        "value": "",
         "attributes": {
           "cx": "20",
           "cy": "20",
-          "rx": "19",
-          "ry": "19",
+          "rx": "20",
+          "ry": "20",
           "style": "fill:#fff;stroke:#000;stroke-width:2px;"
         },
         "proportions": {
           "cx": 0.5,
           "cy": 0.5,
-          "rx": 0.475,
-          "ry": 0.475
+          "rx": 0.5,
+          "ry": 0.5
         },
         "children": []
       },
       "default-dimension": {
         "width": 40,
         "height": 40
-      },
-      "background-color": "white",
-      "line-color": "black",
-      "line-style": "normal-line"
+      }
     },
     {
       "target-type": "rectangle",
       "representation": {
         "name": "rect",
         "type": "element",
-        "value": "",
         "attributes": {
-          "x": "1",
-          "y": "1",
-          "width": "46",
-          "height": "30",
+          "x": "0",
+          "y": "0",
+          "width": "48",
+          "height": "32",
           "style": "fill:#fff;stroke:#000;stroke-width:2px;"
         },
         "proportions": {
-          "x": 0.02083,
-          "y": 0.03125,
-          "width": 0.958333,
-          "height": 0.9375
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
         },
         "children": []
       },
       "default-dimension": {
         "width": 48,
         "height": 32
+      }
+    },
+    {
+      "target-type": "triangle",
+      "representation": {
+        "name": "polygon",
+        "type": "element",
+        "attributes": {
+          "points": "0,32 48,32 24,0 Z",
+          "style": "fill:#fff;stroke:#000;stroke-width:2px;"
+        },
+        "proportions": {
+          "points": "0 1 1 1 0.5 0"
+        },
+        "children": []
       },
-      "background-color": "white",
-      "line-color": "black",
-      "line-style": "normal-line"
+      "default-dimension": {
+        "width": 48,
+        "height": 32
+      }
+    },
+    {
+      "target-type": "diamond",
+      "representation": {
+        "name": "polygon",
+        "type": "element",
+        "attributes": {
+          "points": "0,24 24,48 48,24 24,0 Z",
+          "style": "fill:#fff;stroke:#000;stroke-width:2px;"
+        },
+        "proportions": {
+          "points": "0 0.5 0.5 1 1 0.5 0.5 0"
+        },
+        "children": []
+      },
+      "default-dimension": {
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "target-type": "star",
+      "representation": {
+        "name": "polygon",
+        "type": "element",
+        "attributes": {
+          "points": "24,0 18,18 0,18 16.5,28.5 9,48 24,36 39,48 31.5,28.5 48,18 30,18 Z",
+          "style": "fill:#fff;stroke:#000;stroke-width:2px;"
+        },
+        "proportions": {
+          "points": "0.5 0 0.375 0.375 0 0.375 0.34375 0.59375 0.1875 1 0.5 0.75 0.8125 1 0.677083 0.59375 1 0.375 0.625 0.375"
+        },
+        "children": []
+      },
+      "default-dimension": {
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "target-type": "polygon",
+      "representation": {
+        "name": "polygon",
+        "type": "element",
+        "attributes": {
+          "points": "18,0 36,14 28,36 8,36 0,14 Z",
+          "style": "fill:#fff;stroke:#000;stroke-width:2px;"
+        },
+        "proportions": {
+          "points": "0.5 0 1 0.38888 0.77777 1 0.22222 1 0 0.38888"
+        },
+        "children": []
+      },
+      "default-dimension": {
+        "width": 36,
+        "height": 36
+      }
     }
   ],
   "arrow-head-styles": [
@@ -85,6 +153,9 @@
   "relation-styles": [
     {
       "target-type": "arc"
+    },
+    {
+      "target-type": "line"
     }
   ],
   "text-styles": [
