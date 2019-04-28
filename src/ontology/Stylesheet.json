@@ -56,7 +56,7 @@
         "name": "polygon",
         "type": "element",
         "attributes": {
-          "points": "0,32 48,32 24,0 Z",
+          "points": "0,32 48,32 24,0",
           "style": "fill:#fff;stroke:#000;stroke-width:2px;"
         },
         "proportions": {
@@ -75,7 +75,7 @@
         "name": "polygon",
         "type": "element",
         "attributes": {
-          "points": "0,24 24,48 48,24 24,0 Z",
+          "points": "0 24 24 48 48 24 24 0",
           "style": "fill:#fff;stroke:#000;stroke-width:2px;"
         },
         "proportions": {
@@ -94,7 +94,7 @@
         "name": "polygon",
         "type": "element",
         "attributes": {
-          "points": "24,0 18,18 0,18 16.5,28.5 9,48 24,36 39,48 31.5,28.5 48,18 30,18 Z",
+          "points": "24 0 18 18 0 18 16.5 28.5 9 48 24 36 39 48 31.5 28.5 48 18 30 18",
           "style": "fill:#fff;stroke:#000;stroke-width:2px;"
         },
         "proportions": {
@@ -113,7 +113,7 @@
         "name": "polygon",
         "type": "element",
         "attributes": {
-          "points": "18,0 36,14 28,36 8,36 0,14 Z",
+          "points": "18 0 36 14 28 36 8 36 0 14",
           "style": "fill:#fff;stroke:#000;stroke-width:2px;"
         },
         "proportions": {
