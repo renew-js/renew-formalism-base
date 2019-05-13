@@ -2,28 +2,22 @@
   "type": "base",
   "classifiers": [
     {
-      "type": "ellipse",
-      "labels": [ ]
+      "type": "ellipse"
     },
     {
-      "type": "rectangle",
-      "labels": [ ]
+      "type": "rectangle"
     },
     {
-      "type": "triangle",
-      "labels": [ ]
+      "type": "triangle"
     },
     {
-      "type": "diamond",
-      "labels": [ ]
+      "type": "diamond"
     },
     {
-      "type": "star",
-      "labels": [ ]
+      "type": "star"
     },
     {
-      "type": "polygon",
-      "labels": [ ]
+      "type": "polygon"
     }
   ],
   "relations": [
@@ -48,8 +42,7 @@
         "hexagon": [
           "*"
         ]
-      },
-      "labels": [ ]
+      }
     },
     {
       "type": "arc",
@@ -73,8 +66,7 @@
           "*"
         ]
       },
-      "arrow-end": "arrow-head",
-      "labels": [ ]
+      "arrow-end": "arrow-head"
     }
   ],
   "arrow-heads": [
@@ -84,7 +76,8 @@
   ],
   "texts": [
     {
-      "type": "text"
+      "type": "text",
+      "targets": "*"
     }
   ]
 }
