@@ -152,7 +152,7 @@
   ],
   "relation-styles": [
     {
-      "target-type": "arc"
+      "target-type": "arrow"
     },
     {
       "target-type": "line"
