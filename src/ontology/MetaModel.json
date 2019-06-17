@@ -24,45 +24,15 @@
     {
       "type": "line",
       "bind": {
-        "ellipse": [
-          "*"
-        ],
-        "rectangle": [
-          "*"
-        ],
-        "triangle": [
-          "*"
-        ],
-        "diamond": [
-          "*"
-        ],
-        "star": [
-          "*"
-        ],
-        "hexagon": [
+        "*": [
           "*"
         ]
       }
     },
     {
-      "type": "arc",
+      "type": "arrow",
       "bind": {
-        "ellipse": [
-          "*"
-        ],
-        "rectangle": [
-          "*"
-        ],
-        "triangle": [
-          "*"
-        ],
-        "diamond": [
-          "*"
-        ],
-        "star": [
-          "*"
-        ],
-        "hexagon": [
+        "*": [
           "*"
         ]
       },
