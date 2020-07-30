@@ -10,7 +10,14 @@
           "cy": "20",
           "rx": "20",
           "ry": "20",
-          "style": "fill:#fff;stroke:#000;stroke-width:2px;"
+          "fill":"#fff",
+          "stroke":"#000",
+          "stroke-width":"2px",
+          "fill-opacity": "1",
+          "stroke-opacity":"1",
+          "visibility":"visible",
+          "style":""
+
         },
         "proportions": {
           "cx": 0.5,
@@ -35,7 +42,13 @@
           "y": "0",
           "width": "48",
           "height": "32",
-          "style": "fill:#fff;stroke:#000;stroke-width:2px;"
+          "fill":"#fff",
+          "stroke":"#000",
+          "stroke-width":"2px",
+          "fill-opacity": "1",
+          "stroke-opacity":"1",
+          "visibility":"visible",
+          "style":""
         },
         "proportions": {
           "x": 0,
@@ -57,7 +70,13 @@
         "type": "element",
         "attributes": {
           "points": "0,32 48,32 24,0",
-          "style": "fill:#fff;stroke:#000;stroke-width:2px;"
+          "fill":"#fff",
+          "stroke":"#000",
+          "stroke-width":"2px",
+          "fill-opacity": "1",
+          "stroke-opacity":"1",
+          "visibility":"visible",
+          "style":""
         },
         "proportions": {
           "points": "0 1 1 1 0.5 0"
@@ -76,7 +95,13 @@
         "type": "element",
         "attributes": {
           "points": "0 24 24 48 48 24 24 0",
-          "style": "fill:#fff;stroke:#000;stroke-width:2px;"
+          "fill":"#fff",
+          "stroke":"#000",
+          "stroke-width":"2px",
+          "fill-opacity": "1",
+          "stroke-opacity":"1",
+          "visibility":"visible",
+          "style":""
         },
         "proportions": {
           "points": "0 0.5 0.5 1 1 0.5 0.5 0"
@@ -95,7 +120,13 @@
         "type": "element",
         "attributes": {
           "points": "24 0 18 18 0 18 16.5 28.5 9 48 24 36 39 48 31.5 28.5 48 18 30 18",
-          "style": "fill:#fff;stroke:#000;stroke-width:2px;"
+          "fill":"#fff",
+          "stroke":"#000",
+          "stroke-width":"2px",
+          "fill-opacity": "1",
+          "stroke-opacity":"1",
+          "visibility":"visible",
+          "style":""
         },
         "proportions": {
           "points": "0.5 0 0.375 0.375 0 0.375 0.34375 0.59375 0.1875 1 0.5 0.75 0.8125 1 0.677083 0.59375 1 0.375 0.625 0.375"
@@ -114,7 +145,13 @@
         "type": "element",
         "attributes": {
           "points": "18 0 36 14 28 36 8 36 0 14",
-          "style": "fill:#fff;stroke:#000;stroke-width:2px;"
+          "fill":"#fff",
+          "stroke":"#000",
+          "stroke-width":"2px",
+          "fill-opacity": "1",
+          "stroke-opacity":"1",
+          "visibility":"visible",
+          "style":""
         },
         "proportions": {
           "points": "0.5 0 1 0.38888 0.77777 1 0.22222 1 0 0.38888"
